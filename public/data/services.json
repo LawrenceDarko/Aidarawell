@@ -1,0 +1,54 @@
+[
+  {
+    "id": "personal-care",
+    "name": "Personal Care",
+    "description": "Daily living assistance provided by trained, compassionate caregivers.",
+    "features": [
+      "Bathing and grooming",
+      "Dressing assistance",
+      "Toileting and incontinence care",
+      "Mobility assistance and fall prevention",
+      "Medication reminders"
+    ],
+    "icon": "❤️"
+  },
+  {
+    "id": "companionship",
+    "name": "Companionship",
+    "description": "Combat isolation and loneliness with meaningful social connection.",
+    "features": [
+      "Conversation and social activities",
+      "Entertainment and games",
+      "Community outings",
+      "Meal preparation and shared dining",
+      "Emotional support and listening"
+    ],
+    "icon": "🤝"
+  },
+  {
+    "id": "transportation",
+    "name": "Senior Transportation",
+    "description": "Safe, reliable rides to appointments, errands, and social events.",
+    "features": [
+      "Medical appointments",
+      "Grocery shopping and errands",
+      "Social outings and activities",
+      "Friendly driver companionship",
+      "Wheelchair accessible vehicles available"
+    ],
+    "icon": "🚗"
+  },
+  {
+    "id": "homemaking",
+    "name": "Homemaking",
+    "description": "Light housekeeping to maintain a clean, safe living environment.",
+    "features": [
+      "Light cleaning and tidying",
+      "Laundry and ironing",
+      "Meal planning and preparation",
+      "Errands and shopping assistance",
+      "General household maintenance"
+    ],
+    "icon": "🏠"
+  }
+]

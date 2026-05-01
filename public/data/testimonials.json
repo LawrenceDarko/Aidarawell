@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Margaret Johnson",
+    "relationship": "Adult Daughter",
+    "content": "AidaraWell gave us peace of mind. Mom gets excellent care, and I can work without worrying. The caregivers are professional, kind, and truly treat her like family.",
+    "rating": 5,
+    "imageUrl": "/testimonials/margaret.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Robert Nielsen",
+    "relationship": "Senior, Aging in Place",
+    "content": "I wanted to stay in my home, and AidaraWell made that possible. My caregiver Sarah helps with daily tasks and we've become real friends. I feel safe and supported.",
+    "rating": 5,
+    "imageUrl": "/testimonials/robert.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Sandra Williams",
+    "relationship": "Hospital Discharge Planner",
+    "content": "AidaraWell is our go-to referral partner. Fast placement, reliable caregivers, and they genuinely care about patient outcomes. Best service in the region.",
+    "rating": 5,
+    "imageUrl": "/testimonials/sandra.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Patricia Chen",
+    "relationship": "Adult Son",
+    "content": "After dad's surgery, we needed help fast. AidaraWell responded immediately and had a caregiver with us within days. Couldn't have asked for better service.",
+    "rating": 5,
+    "imageUrl": "/testimonials/patricia.jpg"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "🏥",
+    "title": "Clinical Expertise",
+    "description": "Our founder brings 12+ years of healthcare experience. Clinical oversight means better caregiver training and higher care quality."
+  },
+  {
+    "id": 2,
+    "icon": "🚗",
+    "title": "Transportation + Care",
+    "description": "Most agencies only offer personal care. We combine transportation, appointments, and social outings—the only agency doing both."
+  },
+  {
+    "id": 3,
+    "icon": "⚡",
+    "title": "Existing Caregiver Network",
+    "description": "We don't scramble to find staff. Our established network means faster placement and consistency you can count on."
+  },
+  {
+    "id": 4,
+    "icon": "🌾",
+    "title": "Rural Community Focus",
+    "description": "While others ignore rural areas, we serve Fargo and underserved North Dakota communities with equal dedication."
+  }
+]

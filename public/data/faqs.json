@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "How quickly can you start care?",
+    "answer": "We pride ourselves on rapid service start. In most cases, we can have a caregiver in place within 24-48 hours of your assessment. Our existing network of trained caregivers means we're ready when you need us."
+  },
+  {
+    "id": 2,
+    "question": "Are your caregivers background-checked?",
+    "answer": "Absolutely. Every caregiver on our team undergoes thorough background checks, reference verification, and training. We only hire caregivers who meet our high standards for professionalism, reliability, and compassion."
+  },
+  {
+    "id": 3,
+    "question": "Do you serve areas outside Fargo?",
+    "answer": "Yes! We serve Fargo, Horace, West Fargo, and surrounding Cass County and rural North Dakota communities. Many agencies ignore rural areas, but we're committed to serving underserved communities across the region."
+  },
+  {
+    "id": 4,
+    "question": "What if we need transportation AND personal care?",
+    "answer": "That's one of our key differentiators! Unlike most agencies, we combine transportation with home care services. Whether you need rides to appointments plus personal care, or transportation as your primary need, we can help."
+  },
+  {
+    "id": 5,
+    "question": "How do you match me with a caregiver?",
+    "answer": "Our founder, with 12+ years of clinical healthcare experience, personally oversees caregiver matching. We consider personality, skills, schedule, and care needs to find the best fit. Most families tell us it feels like we found a friend, not just a caregiver."
+  },
+  {
+    "id": 6,
+    "question": "What areas do you cover?",
+    "answer": "We serve Fargo, Horace, West Fargo, Cass County, and rural North Dakota. If you're unsure whether your area is covered, please call us at (701) 555-CARE or submit a free assessment request—we'll let you know."
+  },
+  {
+    "id": 7,
+    "question": "Can I request a specific caregiver?",
+    "answer": "Yes. If you have a favorite caregiver or specific preferences (gender, language, skills), we'll do our best to accommodate your requests. Your comfort and trust are our priority."
+  },
+  {
+    "id": 8,
+    "question": "What's the difference between AidaraWell and other agencies?",
+    "answer": "Three things: Clinical leadership (our founder has 12+ years healthcare experience), integrated transportation + home care (we're the only agency combining both), and deep roots in rural communities (we genuinely care about underserved areas)."
+  }
+]

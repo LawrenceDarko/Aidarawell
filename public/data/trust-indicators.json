@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "🏥",
+    "title": "Clinical Leadership",
+    "description": "Founded by a healthcare professional with 12+ years of clinical experience"
+  },
+  {
+    "id": 2,
+    "icon": "✅",
+    "title": "Background Checked",
+    "description": "Every caregiver is thoroughly vetted and verified"
+  },
+  {
+    "id": 3,
+    "icon": "⚡",
+    "title": "Fast Placement",
+    "description": "Service start within 24-48 hours in most cases"
+  },
+  {
+    "id": 4,
+    "icon": "🤝",
+    "title": "Personal Matching",
+    "description": "Carefully matched caregiver-client relationships"
+  },
+  {
+    "id": 5,
+    "icon": "📍",
+    "title": "Local Service",
+    "description": "Based in Horace, serving Fargo and rural ND"
+  },
+  {
+    "id": 6,
+    "icon": "🚗",
+    "title": "Transportation + Care",
+    "description": "Unique combination of services no other agency offers"
+  }
+]

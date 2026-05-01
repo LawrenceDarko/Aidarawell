@@ -1,0 +1,22 @@
+[
+  {
+    "number": 1,
+    "title": "Submit Your Inquiry",
+    "description": "Complete our free assessment form. Tell us about your situation, care needs, and preferences. Takes just 5 minutes."
+  },
+  {
+    "number": 2,
+    "title": "Free Assessment Call",
+    "description": "Our care coordinator will call within 24 hours to discuss your needs in detail and answer any questions."
+  },
+  {
+    "number": 3,
+    "title": "Custom Care Plan",
+    "description": "We create a personalized care plan based on your specific situation, budget, and preferences."
+  },
+  {
+    "number": 4,
+    "title": "Caregiver Match & Start",
+    "description": "We match you with the perfect caregiver and begin care as soon as you're ready. Most cases start within 48 hours."
+  }
+]

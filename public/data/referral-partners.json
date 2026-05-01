@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "icon": "🏥",
+    "title": "Hospital Discharge Planners",
+    "description": "Fast, reliable placement for post-acute care and discharge planning.",
+    "benefits": [
+      "Rapid 24-48 hour placement",
+      "Clinical oversight and caregiver training",
+      "Flexible service combinations (care + transportation)",
+      "Direct communication with your team"
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "🔄",
+    "title": "Rehabilitation Centers",
+    "description": "Seamless transitions with comprehensive home care follow-up.",
+    "benefits": [
+      "Continuity of care support",
+      "Coordination with therapy teams",
+      "Flexible scheduling and service scaling",
+      "Regular communication and updates"
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "🤝",
+    "title": "Social Workers & Care Managers",
+    "description": "Trusted partner for your clients' long-term care needs.",
+    "benefits": [
+      "Professional credibility and vetting",
+      "Reliable, accountable service",
+      "Rural community coverage (underserved areas)",
+      "Flexible funding options and billing"
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "🏠",
+    "title": "Assisted Living Facilities",
+    "description": "Support for residents aging in place or transitioning home.",
+    "benefits": [
+      "Supplementary care services",
+      "Transportation for appointments and social outings",
+      "Flexible hourly or daily rates",
+      "Seamless integration with facility care"
+    ]
+  }
+]
