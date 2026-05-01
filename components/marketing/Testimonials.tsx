@@ -153,7 +153,7 @@ function TestimonialCard({
       )}
 
       <p className="text-gray-700 mb-6 italic leading-relaxed">
-        "{testimonial.content}"
+        &quot;{testimonial.content}&quot;
       </p>
 
       <div className="flex items-center">

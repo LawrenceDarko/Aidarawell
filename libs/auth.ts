@@ -7,7 +7,7 @@
  * - User validation
  */
 
-import { config } from '@/config';
+import { authOptions } from './auth/next-auth';
 
 /**
  * Check if a route is protected

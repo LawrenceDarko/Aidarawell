@@ -78,7 +78,7 @@ export default function ReferralsPage() {
               Why Refer to AidaraWell
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We're the most reliable home care partner in the Fargo region, especially for rural placements.
+              We&apos;re the most reliable home care partner in the Fargo region, especially for rural placements.
             </p>
           </div>
 
@@ -139,7 +139,7 @@ export default function ReferralsPage() {
                 Dedicated Partnership
               </h3>
               <p className="text-gray-600">
-                Direct communication, regular updates, and genuine commitment to patient outcomes. You're not just making a referral—you're partnering with us.
+                Direct communication, regular updates, and genuine commitment to patient outcomes. You&apos;re not just making a referral—you&apos;re partnering with us.
               </p>
             </div>
           </div>
@@ -277,7 +277,7 @@ export default function ReferralsPage() {
               Prefer to Call?
             </h3>
             <p className="text-gray-700 mb-6">
-              Refer your patient directly. We'll confirm care details on the phone.
+              Refer your patient directly. We&apos;ll confirm care details on the phone.
             </p>
             <a
               href="tel:(701)555-2273"

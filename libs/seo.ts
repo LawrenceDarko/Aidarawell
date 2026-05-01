@@ -35,6 +35,7 @@ export function generateMetadata(options?: SEOOptions): Metadata {
     title,
     description,
     keywords,
+    metadataBase: new URL(config.app.url),
     robots: {
       index: !options?.noindex,
       follow: !options?.noindex,
@@ -52,7 +53,7 @@ export function generateMetadata(options?: SEOOptions): Metadata {
           alt: title,
         },
       ],
-      type: options?.type || 'website',
+      type: options?.type === 'product' ? 'website' : options?.type || 'website',
       locale: 'en_US',
     },
     twitter: {

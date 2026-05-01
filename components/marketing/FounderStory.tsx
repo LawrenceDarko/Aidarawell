@@ -1,4 +1,4 @@
-interface FounderStoryProps {
+export interface FounderStoryProps {
   name: string;
   title: string;
   yearsExperience: number;
@@ -54,7 +54,7 @@ export function FounderStory({
         {quote && (
           <blockquote className="bg-accent-50 border-l-4 border-accent-500 pl-4 py-4 rounded mb-6">
             <p className="text-gray-800 italic">
-              "{quote}"
+              &quot;{quote}&quot;
             </p>
           </blockquote>
         )}

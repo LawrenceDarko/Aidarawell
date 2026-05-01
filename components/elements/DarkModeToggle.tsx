@@ -17,12 +17,12 @@ export interface DarkModeToggleProps {
 }
 
 export function DarkModeToggle({ className = '', size = 'md' }: DarkModeToggleProps) {
+  const { isDarkMode, toggleDarkMode } = useTheme();
+
   // Don't render if dark mode is disabled in config
   if (!config.theme.darkMode) {
     return null;
   }
-
-  const { isDarkMode, toggleDarkMode } = useTheme();
 
   const sizeClasses = {
     sm: 'w-8 h-8',

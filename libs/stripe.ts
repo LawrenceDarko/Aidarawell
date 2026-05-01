@@ -10,7 +10,7 @@
  */
 
 import { config, type PaymentMode, type StripePlan } from '@/config';
-import { stripe } from './stripe/client';
+import { getStripeClient } from './stripe/client';
 import type Stripe from 'stripe';
 
 // Re-export types for convenience
@@ -84,6 +84,7 @@ export async function createCheckoutSession(
   customerId: string,
   options: CheckoutOptions
 ): Promise<Stripe.Checkout.Session> {
+  const stripe = getStripeClient();
   const { priceId, successUrl, cancelUrl, mode, metadata = {} } = options;
 
   const session = await stripe.checkout.sessions.create({
@@ -116,6 +117,7 @@ export async function createCheckoutSessionForNewCustomer(
   email: string,
   options: CheckoutOptions
 ): Promise<Stripe.Checkout.Session> {
+  const stripe = getStripeClient();
   const { priceId, successUrl, cancelUrl, mode, metadata = {} } = options;
 
   const session = await stripe.checkout.sessions.create({
@@ -169,6 +171,7 @@ export async function createCheckoutSessionForPlan(
 export async function getCustomer(
   customerId: string
 ): Promise<Stripe.Customer | null> {
+  const stripe = getStripeClient();
   try {
     return await stripe.customers.retrieve(customerId) as Stripe.Customer;
   } catch (error) {
@@ -183,6 +186,7 @@ export async function getCustomer(
 export async function getSubscription(
   subscriptionId: string
 ): Promise<Stripe.Subscription | null> {
+  const stripe = getStripeClient();
   try {
     return await stripe.subscriptions.retrieve(subscriptionId);
   } catch (error) {
@@ -198,6 +202,7 @@ export async function cancelSubscription(
   subscriptionId: string,
   immediately: boolean = false
 ): Promise<Stripe.Subscription> {
+  const stripe = getStripeClient();
   if (immediately) {
     return await stripe.subscriptions.cancel(subscriptionId);
   } else {
@@ -215,7 +220,6 @@ export function verifyWebhookSignature(
   signature: string,
   secret: string
 ): Stripe.Event {
+  const stripe = getStripeClient();
   return stripe.webhooks.constructEvent(payload, signature, secret);
 }
-
-export { stripe };

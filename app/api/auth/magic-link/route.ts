@@ -35,7 +35,7 @@ export const POST = withValidation(
       return applySecurityHeaders(rateLimitResponse);
     }
 
-    const { email, callbackUrl } = body;
+    const { email, callbackUrl } = body as z.infer<typeof magicLinkSchema>;
 
     // Send magic link email
     await sendMagicLinkEmail({

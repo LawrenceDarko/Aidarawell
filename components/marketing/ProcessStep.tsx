@@ -1,4 +1,4 @@
-interface ProcessStepProps {
+export interface ProcessStepProps {
   number: number;
   title: string;
   description: string;

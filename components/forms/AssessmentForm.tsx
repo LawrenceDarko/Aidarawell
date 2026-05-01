@@ -79,7 +79,7 @@ export function AssessmentForm() {
           Thank You!
         </h3>
         <p className="text-green-700">
-          Your assessment request has been received. We'll call you within 24 hours to discuss your care needs.
+          Your assessment request has been received. We&apos;ll call you within 24 hours to discuss your care needs.
         </p>
       </div>
     );

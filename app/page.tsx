@@ -8,31 +8,37 @@ import { StickyCallButton, LeadButton, GradientButton } from '@/components';
 
 const trustIndicators = [
   {
+    id: 'clinical-leadership',
     icon: '🏥',
     title: 'Clinical Leadership',
     description: 'Founded by a healthcare professional with 12+ years experience',
   },
   {
+    id: 'background-checked',
     icon: '✅',
     title: 'Background Checked',
     description: 'Every caregiver is thoroughly vetted and verified',
   },
   {
+    id: 'fast-placement',
     icon: '⚡',
     title: 'Fast Placement',
     description: 'Service starts within 24-48 hours',
   },
   {
+    id: 'personal-matching',
     icon: '🤝',
     title: 'Personal Matching',
     description: 'Carefully matched caregiver-client relationships',
   },
   {
+    id: 'local-rural-focus',
     icon: '📍',
     title: 'Local & Rural Focus',
     description: 'Serving Fargo and underserved communities',
   },
   {
+    id: 'transportation-care',
     icon: '🚗',
     title: 'Transportation + Care',
     description: 'Unique combination of services',
@@ -59,23 +65,23 @@ const services = [
 
 const testimonials = [
   {
-    id: 1,
+    id: '1',
     name: 'Margaret Johnson',
-    relationship: 'Adult Daughter',
+    role: 'Adult Daughter',
     content: 'AidaraWell gave us peace of mind. Mom gets excellent care, and I can work without worrying. The caregivers are professional, kind, and treat her like family.',
     rating: 5,
   },
   {
-    id: 2,
+    id: '2',
     name: 'Robert Nielsen',
-    relationship: 'Senior, Aging in Place',
+    role: 'Senior, Aging in Place',
     content: 'I wanted to stay home, and AidaraWell made it possible. My caregiver Sarah helps with daily tasks, and we have become real friends. I feel safe and supported.',
     rating: 5,
   },
   {
-    id: 3,
+    id: '3',
     name: 'Dr. Sandra Williams',
-    relationship: 'Hospital Discharge Planner',
+    role: 'Hospital Discharge Planner',
     content: 'AidaraWell is our go-to referral partner. Fast, reliable placement and they genuinely care about outcomes. Best service in the region.',
     rating: 5,
   },
@@ -111,7 +117,7 @@ export default function Home() {
               Why Families Trust AidaraWell
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We're not just a home care agency. We're a trusted partner with clinical expertise, local roots, and genuine care.
+              We&apos;re not just a home care agency. We&apos;re a trusted partner with clinical expertise, local roots, and genuine care.
             </p>
           </div>
 
@@ -184,7 +190,7 @@ export default function Home() {
               Real Stories from Real Families
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Hear from families who've experienced AidaraWell's compassionate care.
+              Hear from families who&apos;ve experienced AidaraWell&apos;s compassionate care.
             </p>
           </div>
 

@@ -30,30 +30,30 @@ const differentiators = [
 
 const testimonials = [
   {
-    id: 1,
+    id: '1',
     name: 'Margaret Johnson',
-    relationship: 'Adult Daughter',
+    role: 'Adult Daughter',
     content: 'AidaraWell gave us peace of mind. Mom gets excellent care, and I can work without worrying. The caregivers are professional, kind, and truly treat her like family.',
     rating: 5,
   },
   {
-    id: 2,
+    id: '2',
     name: 'Robert Nielsen',
-    relationship: 'Senior, Aging in Place',
+    role: 'Senior, Aging in Place',
     content: 'I wanted to stay in my home, and AidaraWell made that possible. My caregiver Sarah helps with daily tasks and we\'ve become real friends. I feel safe and supported.',
     rating: 5,
   },
   {
-    id: 3,
+    id: '3',
     name: 'Dr. Sandra Williams',
-    relationship: 'Hospital Discharge Planner',
+    role: 'Hospital Discharge Planner',
     content: 'AidaraWell is our go-to referral partner. Fast placement, reliable caregivers, and they genuinely care about patient outcomes. Best service in the region.',
     rating: 5,
   },
   {
-    id: 4,
+    id: '4',
     name: 'Patricia Chen',
-    relationship: 'Adult Son',
+    role: 'Adult Son',
     content: 'After dad\'s surgery, we needed help fast. AidaraWell responded immediately and had a caregiver with us within days. Couldn\'t have asked for better service.',
     rating: 5,
   },
@@ -121,15 +121,15 @@ export default function WhyUsPage() {
 
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-700 mb-6">
-              Many national home care chains have abandoned rural areas—they're not profitable enough. That's not us. We're based in Horace, North Dakota, and we serve the communities we call home: Fargo, West Fargo, Cass County, and rural ND.
+              Many national home care chains have abandoned rural areas—they&apos;re not profitable enough. That&apos;s not us. We&apos;re based in Horace, North Dakota, and we serve the communities we call home: Fargo, West Fargo, Cass County, and rural ND.
             </p>
 
             <p className="text-gray-700 mb-6">
-              We understand rural healthcare challenges: limited transportation, caregiver shortages, geographic distance. These aren't obstacles to us—they're exactly why we exist. We've built a network of local caregivers who know this community and care about it.
+              We understand rural healthcare challenges: limited transportation, caregiver shortages, geographic distance. These aren&apos;t obstacles to us—they&apos;re exactly why we exist. We&apos;ve built a network of local caregivers who know this community and care about it.
             </p>
 
             <p className="text-gray-700">
-              Rural care deserves the same quality, responsiveness, and human touch as urban care. That's our promise.
+              Rural care deserves the same quality, responsiveness, and human touch as urban care. That&apos;s our promise.
             </p>
           </div>
         </div>

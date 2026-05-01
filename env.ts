@@ -15,10 +15,6 @@ const envSchema = z.object({
   NEXTAUTH_SECRET: z.string().min(15, 'NEXTAUTH_SECRET must be at least 15 characters'),
   NEXTAUTH_URL: z.string().url().optional(),
 
-  // Database - MongoDB
-  MONGODB_URI: z.string().url().optional(),
-  MONGODB_DB_NAME: z.string().optional(),
-
   // Database - Supabase
   NEXT_PUBLIC_SUPABASE_URL: z.string().url().optional(),
   NEXT_PUBLIC_SUPABASE_ANON_KEY: z.string().optional(),
@@ -92,8 +88,6 @@ export const getEnv = {
   nextAuthUrl: () => env.NEXTAUTH_URL || env.NEXT_PUBLIC_APP_URL,
 
   // Database
-  mongodbUri: () => env.MONGODB_URI,
-  mongodbDbName: () => env.MONGODB_DB_NAME || 'jumpstart',
   supabaseUrl: () => env.NEXT_PUBLIC_SUPABASE_URL,
   supabaseAnonKey: () => env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
   supabaseServiceRoleKey: () => env.SUPABASE_SERVICE_ROLE_KEY,
@@ -142,7 +136,7 @@ export const getEnv = {
 export function validateRequiredEnv() {
   const required = {
     nextAuth: env.NEXTAUTH_SECRET,
-    database: env.MONGODB_URI || env.NEXT_PUBLIC_SUPABASE_URL,
+    database: env.NEXT_PUBLIC_SUPABASE_URL && env.SUPABASE_SERVICE_ROLE_KEY,
   };
 
   const missing: string[] = [];
@@ -152,7 +146,7 @@ export function validateRequiredEnv() {
   }
 
   if (!required.database) {
-    missing.push('MONGODB_URI or NEXT_PUBLIC_SUPABASE_URL');
+    missing.push('NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY');
   }
 
   if (missing.length > 0) {

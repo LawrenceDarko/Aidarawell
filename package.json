@@ -13,9 +13,7 @@
   },
   "dependencies": {
     "@auth/supabase-adapter": "^1.4.0",
-    "@next-auth/mongodb-adapter": "^1.1.0",
     "@supabase/supabase-js": "^2.39.3",
-    "mongodb": "^5.9.2",
     "next": "^14.2.5",
     "next-auth": "^4.24.5",
     "nodemailer": "^7.0.12",

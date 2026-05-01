@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface ReferralPartnerCardProps {
+export interface ReferralPartnerCardProps {
   icon: React.ReactNode;
   title: string;
   description: string;

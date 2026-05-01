@@ -4,10 +4,9 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   
-  // Exclude MongoDB and other Node.js-only modules from Edge runtime
+  // Exclude Node.js-only modules from the client bundle
   webpack: (config, { isServer, webpack }) => {
     if (!isServer) {
-      // Exclude MongoDB from client-side bundle
       config.resolve.fallback = {
         ...config.resolve.fallback,
         fs: false,
@@ -17,15 +16,12 @@ const nextConfig: NextConfig = {
       };
     }
     
-    // Ignore MongoDB optional dependencies warnings in Edge runtime
+    // Ignore optional dependency warnings in Edge runtime
     config.ignoreWarnings = [
-      { module: /mongodb/ },
       { module: /kerberos/ },
-      { module: /@mongodb-js\/zstd/ },
       { module: /@aws-sdk\/credential-providers/ },
       { module: /snappy/ },
       { module: /aws4/ },
-      { module: /mongodb-client-encryption/ },
     ];
     
     return config;

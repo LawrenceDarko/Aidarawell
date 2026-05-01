@@ -88,7 +88,6 @@ export function Hero({
                   <GradientButton
                     gradient="green"
                     size="lg"
-                    variant="outline"
                     asLink
                     href={secondaryCTA?.href ?? 'tel:(701)555-2273'}
                   >

@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface ImageSpotlightProps {
+export interface ImageSpotlightProps {
   eyebrow: string;
   title: string;
   description: string;

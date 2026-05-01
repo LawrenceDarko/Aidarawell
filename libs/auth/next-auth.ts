@@ -2,7 +2,7 @@
  * NextAuth Configuration
  * 
  * Configures NextAuth with Google OAuth and Magic Link (Email) providers.
- * Supports both MongoDB and Supabase adapters.
+ * Uses the Supabase adapter.
  */
 
 import type { NextAuthOptions } from 'next-auth';
@@ -11,16 +11,18 @@ import EmailProvider from 'next-auth/providers/email';
 import { getAdapter } from '@/libs/db';
 import { config } from '@/config';
 
+const adapter = getAdapter();
+
 /**
  * NextAuth Configuration
  * 
  * Supports:
  * - Google OAuth
  * - Magic Link (Email) authentication
- * - MongoDB or Supabase database adapter
+ * - Supabase database adapter
  */
 export const authOptions: NextAuthOptions = {
-  adapter: getAdapter(),
+  adapter,
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID || '',
@@ -66,7 +68,7 @@ export const authOptions: NextAuthOptions = {
     },
   },
   session: {
-    strategy: 'database',
+    strategy: adapter ? 'database' : 'jwt',
     maxAge: 30 * 24 * 60 * 60, // 30 days
   },
   secret: process.env.NEXTAUTH_SECRET,

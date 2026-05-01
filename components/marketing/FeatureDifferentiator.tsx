@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface FeatureDifferentiatorProps {
+export interface FeatureDifferentiatorProps {
   icon: React.ReactNode;
   title: string;
   description: string;

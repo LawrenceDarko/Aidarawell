@@ -6,31 +6,37 @@ import { StickyCallButton, LeadButton } from '@/components';
 
 const whyJoinUs = [
   {
+    id: 'meaningful-work',
     icon: '💚',
     title: 'Meaningful Work',
     description: 'Make a real difference in seniors\' lives. Every day matters.',
   },
   {
+    id: 'supportive-team',
     icon: '👥',
     title: 'Supportive Team',
     description: 'Work with a team that genuinely cares about their caregivers.',
   },
   {
+    id: 'continuous-training',
     icon: '📚',
     title: 'Continuous Training',
     description: 'We invest in your professional development and clinical skills.',
   },
   {
+    id: 'flexible-scheduling',
     icon: '🤝',
     title: 'Flexible Scheduling',
     description: 'Work hours that fit your life. Part-time or full-time options.',
   },
   {
+    id: 'competitive-pay',
     icon: '💰',
     title: 'Competitive Pay',
     description: 'Fair compensation that reflects your skills and experience.',
   },
   {
+    id: 'recognition-growth',
     icon: '🎖️',
     title: 'Recognition & Growth',
     description: 'Advance your career with us. Your contributions matter.',
@@ -75,7 +81,7 @@ export default function CaregiversPage() {
               Why Caregivers Choose AidaraWell
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Work with purpose. Our caregivers aren't just employees—they're part of a mission to provide world-class care.
+              Work with purpose. Our caregivers aren&apos;t just employees—they&apos;re part of a mission to provide world-class care.
             </p>
           </div>
 
@@ -101,7 +107,7 @@ export default function CaregiversPage() {
         <div className="max-w-4xl mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What We're Looking For
+              What We&apos;re Looking For
             </h2>
           </div>
 
@@ -117,7 +123,7 @@ export default function CaregiversPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary-600 font-bold">✓</span>
-                  <span className="text-gray-700">Valid driver's license with reliable vehicle</span>
+                  <span className="text-gray-700">Valid driver&apos;s license with reliable vehicle</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary-600 font-bold">✓</span>
@@ -196,7 +202,7 @@ export default function CaregiversPage() {
 
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-700 mb-6">
-              AidaraWell is built on values of compassion, clinical excellence, and genuine human connection. Our founder, with 12+ years of healthcare experience, believes caregiving isn't a transaction—it's a relationship.
+              AidaraWell is built on values of compassion, clinical excellence, and genuine human connection. Our founder, with 12+ years of healthcare experience, believes caregiving isn&apos;t a transaction—it&apos;s a relationship.
             </p>
 
             <p className="text-gray-700 mb-6">
@@ -204,7 +210,7 @@ export default function CaregiversPage() {
             </p>
 
             <p className="text-gray-700">
-              When you join AidaraWell, you're not just getting a job. You're joining a mission to ensure that seniors in rural North Dakota have access to world-class, compassionate care.
+              When you join AidaraWell, you&apos;re not just getting a job. You&apos;re joining a mission to ensure that seniors in rural North Dakota have access to world-class, compassionate care.
             </p>
           </div>
         </div>
@@ -218,7 +224,7 @@ export default function CaregiversPage() {
               Current Openings
             </h2>
             <p className="text-lg text-gray-600">
-              We're always looking for compassionate caregivers to join our team.
+              We&apos;re always looking for compassionate caregivers to join our team.
             </p>
           </div>
 
@@ -268,10 +274,10 @@ export default function CaregiversPage() {
         description="Join our team of dedicated caregivers. Apply now and let's talk about how you can help seniors live safely at home."
         cta={
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <LeadButton size="lg" href="mailto:careers@aidarawell.com?subject=Caregiver%20Application">
+            <LeadButton asLink size="lg" href="mailto:careers@aidarawell.com?subject=Caregiver%20Application">
               Apply Now
             </LeadButton>
-            <LeadButton size="lg" href="tel:(701)555-2273" variant="secondary">
+            <LeadButton asLink size="lg" href="tel:(701)555-2273">
               Call with Questions
             </LeadButton>
           </div>

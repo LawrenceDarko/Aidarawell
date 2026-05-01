@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-interface StickyCallButtonProps {
+export interface StickyCallButtonProps {
   phoneNumber?: string;
   assessmentLink?: string;
 }

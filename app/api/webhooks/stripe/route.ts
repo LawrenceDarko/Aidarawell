@@ -10,12 +10,6 @@ import { headers } from 'next/headers';
 import { applySecurityHeaders } from '@/libs/security/headers';
 import Stripe from 'stripe';
 
-const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
-
-if (!webhookSecret) {
-  throw new Error('STRIPE_WEBHOOK_SECRET is not set');
-}
-
 /**
  * POST /api/webhooks/stripe
  * 
@@ -25,6 +19,14 @@ if (!webhookSecret) {
  */
 export async function POST(request: NextRequest) {
   try {
+    const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
+    if (!webhookSecret) {
+      return NextResponse.json(
+        { error: 'STRIPE_WEBHOOK_SECRET is not set' },
+        { status: 500 }
+      );
+    }
+
     const body = await request.text();
     const headersList = await headers();
     const signature = headersList.get('stripe-signature');

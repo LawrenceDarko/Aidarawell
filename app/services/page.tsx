@@ -151,7 +151,7 @@ export default function ServicesPage() {
                 Clinical Oversight
               </h3>
               <p className="text-gray-600">
-                Our founder's 12+ years healthcare experience ensures clinical quality and appropriate care delivery.
+                Our founder&apos;s 12+ years healthcare experience ensures clinical quality and appropriate care delivery.
               </p>
             </div>
 
@@ -161,7 +161,7 @@ export default function ServicesPage() {
                 Personalized Matching
               </h3>
               <p className="text-gray-600">
-                We don't just assign caregivers. We carefully match personality, skills, and preferences for genuine connections.
+                We don&apos;t just assign caregivers. We carefully match personality, skills, and preferences for genuine connections.
               </p>
             </div>
 

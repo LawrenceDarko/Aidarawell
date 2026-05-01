@@ -119,7 +119,7 @@ export default function HowItWorksPage() {
                 Quick Start
               </h3>
               <p className="text-gray-600">
-                Our existing caregiver network means you don't wait. Care starts within 24-48 hours.
+                Our existing caregiver network means you don&apos;t wait. Care starts within 24-48 hours.
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function HowItWorksPage() {
               <div className="flex-1">
                 <h3 className="font-semibold text-gray-900 mb-1">Care Begins</h3>
                 <p className="text-gray-600 text-sm">
-                  Your caregiver arrives for the first shift. Care plan in effect. You're supported.
+                  Your caregiver arrives for the first shift. Care plan in effect. You&apos;re supported.
                 </p>
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function HowItWorksPage() {
           <div className="space-y-6">
             <div className="bg-white rounded-lg p-6 border border-primary-200">
               <h3 className="font-semibold text-gray-900 mb-2">
-                What if I can't reach you on the first call?
+                What if I can&apos;t reach you on the first call?
               </h3>
               <p className="text-gray-600 text-sm">
                 We follow up via email or text. We use multiple contact methods to reach you within 24 hours.
@@ -225,10 +225,10 @@ export default function HowItWorksPage() {
 
             <div className="bg-white rounded-lg p-6 border border-primary-200">
               <h3 className="font-semibold text-gray-900 mb-2">
-                What if the caregiver match doesn't feel right?
+                What if the caregiver match doesn&apos;t feel right?
               </h3>
               <p className="text-gray-600 text-sm">
-                We'll work with you to find a better match. Our goal is genuine connection—not just getting started.
+                We&apos;ll work with you to find a better match. Our goal is genuine connection—not just getting started.
               </p>
             </div>
 

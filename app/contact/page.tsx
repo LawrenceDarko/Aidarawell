@@ -37,7 +37,7 @@ export default function ContactPage() {
               Tell Us About Your Needs
             </h2>
             <p className="text-gray-600 mb-2">
-              Your information is confidential and secure. We'll use it to create a personalized care plan and match you with the perfect caregiver.
+              Your information is confidential and secure. We&apos;ll use it to create a personalized care plan and match you with the perfect caregiver.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default function ContactPage() {
               <div className="text-2xl mb-3">📞</div>
               <h3 className="font-semibold text-gray-900 mb-2">Quick Response</h3>
               <p className="text-gray-600 text-sm">
-                We'll call within 24 hours. No pressure, just a friendly conversation about your needs.
+                We&apos;ll call within 24 hours. No pressure, just a friendly conversation about your needs.
               </p>
             </div>
 
@@ -85,7 +85,7 @@ export default function ContactPage() {
                   How long does the assessment call take?
                 </h4>
                 <p className="text-gray-600">
-                  Usually 20-30 minutes. We'll discuss your situation, care needs, preferences, budget, and any concerns.
+                  Usually 20-30 minutes. We&apos;ll discuss your situation, care needs, preferences, budget, and any concerns.
                 </p>
               </div>
 
@@ -103,7 +103,7 @@ export default function ContactPage() {
                   Can I include family members on the call?
                 </h4>
                 <p className="text-gray-600">
-                  Absolutely! Many adult children join calls about their parent's care. Family input helps us create better care plans.
+                  Absolutely! Many adult children join calls about their parent&apos;s care. Family input helps us create better care plans.
                 </p>
               </div>
 
@@ -121,7 +121,7 @@ export default function ContactPage() {
                   Do I have to commit to anything?
                 </h4>
                 <p className="text-gray-600">
-                  Not at all. The assessment is no-obligation. You can ask questions, explore options, and decide what's right for your situation.
+                  Not at all. The assessment is no-obligation. You can ask questions, explore options, and decide what&apos;s right for your situation.
                 </p>
               </div>
 
@@ -130,7 +130,7 @@ export default function ContactPage() {
                   What if I prefer to call instead of filling out a form?
                 </h4>
                 <p className="text-gray-600">
-                  Perfect! Call us at <strong>(701) 555-2273</strong> and we'll start the assessment right away. No form needed.
+                  Perfect! Call us at <strong>(701) 555-2273</strong> and we&apos;ll start the assessment right away. No form needed.
                 </p>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function ContactPage() {
             Prefer to Talk Now?
           </h3>
           <p className="text-lg text-gray-700 mb-8">
-            No problem. Call us directly and we'll start your assessment right away.
+            No problem. Call us directly and we&apos;ll start your assessment right away.
           </p>
           <a
             href="tel:(701)555-2273"
