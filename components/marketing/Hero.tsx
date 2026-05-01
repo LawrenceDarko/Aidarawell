@@ -69,7 +69,7 @@ export function Hero({
             <p className="text-sm font-semibold text-primary-700 uppercase tracking-[0.2em] mb-4">
               {resolvedSubtitle}
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 max-w-2xl leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-5xl font-extrabold text-gray-900 mb-6 max-w-2xl leading-tight">
               {resolvedTitle}
             </h1>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed max-w-xl">
